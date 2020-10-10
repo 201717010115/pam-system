@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/pam.iml" filepath="$PROJECT_DIR$/.idea/pam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pam-common/pam-common.iml" filepath="$PROJECT_DIR$/pam-common/pam-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pam-core/pam-core.iml" filepath="$PROJECT_DIR$/pam-core/pam-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pam-service/pam-service.iml" filepath="$PROJECT_DIR$/pam-service/pam-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pam-task/pam-task.iml" filepath="$PROJECT_DIR$/pam-task/pam-task.iml" />
+    </modules>
+  </component>
+</project>

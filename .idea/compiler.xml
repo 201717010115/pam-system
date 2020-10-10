@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pam-service" />
+        <module name="pam-core" />
+        <module name="pam-common" />
+        <module name="pam-task" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pam" target="1.5" />
+      <module name="pam-common" target="7" />
+      <module name="pam-core" target="1.8" />
+      <module name="pam-service" target="1.5" />
+      <module name="pam-task" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pam" options="-parameters" />
+      <module name="pam-common" options="" />
+      <module name="pam-core" options="-parameters" />
+      <module name="pam-service" options="" />
+      <module name="pam-task" options="-parameters" />
+    </option>
+  </component>
+</project>
